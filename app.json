@@ -3,27 +3,22 @@
     "name": "consumo-consciente",
     "slug": "consumo-consciente",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#d4f4d2"
     },
-    "ios": {
-      "supportsTablet": true
+    "extra": {
+      "eas": {
+        "projectId": "8540e13e-692c-4e94-9d9f-79e4bb1c89ac"
+      }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "edgeToEdgeEnabled": true
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.zimachado.consumoconsciente"
     }
   }
 }
